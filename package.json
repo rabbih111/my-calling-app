@@ -10,17 +10,24 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@sentry/node": "^8.39.0",
     "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "express": "^4.21.1",
+    "ioredis": "^5.4.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.2",
+    "newrelic": "^12.8.0",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1",
     "webrtc": "^1.14.1",
+    "winston": "^3.17.0",
     "wrtc": "^0.4.7"
   }
 }
 {
-  "scripts": {
-    "start": "node server.js"
+  "engines": {
+    "node": "22.11.0"
   }
 }
